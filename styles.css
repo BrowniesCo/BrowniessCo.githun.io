@@ -1,0 +1,334 @@
+*{
+	margin: 0;
+	padding: 0;
+	bax-sizing: border-box;
+}
+/*Estilos Principales*/
+html,body{
+	font-family: "sogoe UI",Tahoma,Geneve,Verdana, sans-serif;
+	line-height: 1.7em;
+}
+
+a{
+	color: black; /*color letras menu*/
+	text-decoration: none;
+	font-size: 20px;
+}
+a:hover{
+	color: #7202f9;
+	text-decoration: underline;
+}
+h1,h3{
+	color: #f1948a-;
+}
+h1,h3	{
+	text-align: center;
+}
+h1,h2,h3{
+	padding-bottom: 10px 0;
+}
+p{
+	margin: 10px 0;
+}
+nav{
+	background-color: #edbb99;/*color de barra de menu*/
+}
+ul{
+list-style: none;
+padding: 20px;
+text-align: center;
+}
+
+li{
+	display: inline-block;
+	margin: 0 20px;
+}
+
+form{
+	max-width: 500px;
+	margin: 0 auto;
+	background-color: #af7ac5;
+	padding: 40px;
+	border-radius: 10px;
+	font-size: 18px;
+}
+label,input,textarea{
+	display: block;
+	margin-bottom: 5px;
+}
+input,textarea{
+	width: 100%;
+	padding: 10px;
+}
+
+button{
+	background-color: #3498db;
+	color: #00aaff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #1a4867;
+
+}
+.contenedor{
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #fdedec;
+	padding: 40px;
+	border-radius: 10px;
+	font-size: 18px;
+	text-align: center;
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nutrition-stats .fatsecret_nutritionpanel td {
+    padding: 1px 0;
+}
+
+.texto {
+    font-size: 13px;
+    color: #333;
+    line-height: 166.666%;
+}
+
+.texto p,
+.texto ul {
+    margin: 0 0 1.5em;
+}
+
+.texto p:empty {
+    display: none;
+}
+
+.texto ul {
+    list-style: none;
+    padding-left: 80px;
+}
+
+.texto li {
+    margin-bottom: .5em;
+    position: relative;
+}
+
+.texto li:before {
+    content: "· ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #C4B4FF;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}
+
+.texto em {
+    font-size: 1.33em;
+    color: #C4B4FF;
+    font-style: normal;
+}
+
+.texto a {
+    font-weight: 700;
+}
+
+/*conocenos*/
+.conocenos-videowrap {
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+    background: #46ECD5;
+}
+
+.conocenos-videowrap iframe {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#conocenos-box {
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+#conocenos-box .event-details {
+    padding: 0;
+}
+
+#conocenos-cont {
+    padding: 0;
+    /*padding-left: 30px;*/
+}
+
+.conocenos-block {
+    display: block;
+    padding: 50px;
+    background: #fff;
+}
+
+.conocenos-block:nth-child(odd) {
+    background: #FCE7F3;
+}
+
+.conocenos-block h2 {
+    display: block;
+    margin: 0 0 20px;
+    font-size: 30px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #F08CFD;
+}
+
+.conocenos-block .makeBg {
+    display: block;
+    width: 100%;
+    height: 0;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.conocenos-block ul {
+    padding-left: 20px;
+}
+
+#conocenos-block1 .image-col {
+    width: 60%;
+}
+
+#conocenos-block1 .text-col {
+    width: 30%;
+    padding-left: 30px;
+}
+
+#conocenos-block1 .makeBg {
+    padding-top: 40%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+#conocenos-block2 li {
+    margin-top: 0;
+}
+
+#conocenos-block2 li+li {
+    margin-top: 20px;
+}
+
+#conocenos-block2 .text-col {
+    width: 50%;
+    padding-right: 30px;
+}
+
+#conocenos-block2 .image-col {
+    width: 50%;
+    float: right;
+    margin-top: -50px;
+}
+
+#conocenos-block2 .makeBg {
+    padding-top: 90%;
+    background-position: bottom center;
+}
+
+#conocenos-block3 .image-col {
+    width: 50%;
+    padding-right: 30px;
+    transition: 2s;
+}
+.img:hover{
+    background-position: bottom;
+}
+.1.jpeg{
+        background-image: url(1.jpeg);
+}
+
+#conocenos-block3 .text-col {
+    width: 50%;
+}
+
+#conocenos-block3 .makeBg {
+    padding-top: 70%;
+    background-position: top center;
+}
+
+#conocenos-block3 li {
+    margin-top: 0;
+}
+
+#conocenos-block3 li+li {
+    margin-top: 20px;
+}
+
+
+
+#conocenos-block4 .image-col {
+    width: 30%;
+    float: right;
+}
+
+
+}
+#conocenos-block4 .text-col {
+   
+    width: 80%;
+    padding-right: 40px;
+}
+
+
+
+#conocenos-block4 .makeBg {
+    padding-top: 50%;
+    background-position: top center;
+}
+
+#conocenos-block4 li {
+    margin-top: 0;
+}
+
+
+111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+
+
+    btn-1{
+    background-color: #3498db;
+    color: #00aaff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+btn-1:hover{
+    background-color: #1a4867;
+
+
+
